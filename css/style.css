@@ -1,0 +1,64 @@
+html,
+body {
+	height: 100%;
+}
+
+#home {
+	background: none;
+	height: 100%;
+}
+.home-bg-video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+}
+
+.card {
+	background-color: rgba(12, 15, 12, 0.2);
+}
+
+#name {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	outline: none;
+	height: 25px;
+	color: #fff;
+	box-shadow: 0 1px 0 0 #fff;
+	transition: height 1s;
+}
+#name:focus {
+	height: 50px;
+	font-size: 16px;
+}
+#pass {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	outline: none;
+	height: 25px;
+	color: #fff;
+	box-shadow: 0 1px 0 0 #fff;
+	transition: height 1s;
+}
+#pass:focus {
+	height: 50px;
+	font-size: 16px;
+}
+.login-btn {
+	padding: 10px 40px;
+	border: none;
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+.sign-btn span {
+	font-size: 16px;
+	font-weight: 500;
+	color: #dc3545 !important;
+}
